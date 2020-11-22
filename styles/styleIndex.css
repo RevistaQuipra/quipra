@@ -1,0 +1,86 @@
+@font-face {
+    font-family: cabecalho;
+    src: url("../fonts/Akrobat-SemiBold_0.otf");
+}
+
+@font-face {
+    font-family: corpo;
+    src: url("../fonts/Akrobat-SemiBold_0.otf");
+}
+
+body{
+    background-color: rgb(153, 103, 254);
+}
+
+p#corpo{
+    font-family: corpo;
+    font-size: 17pt;
+}
+
+
+.navs{
+    color: white;
+    font-family: cabecalho;
+    font-size: 21pt;
+}
+
+li{
+    margin: 10px;
+}
+
+div#principal{
+    height: 100%;
+}
+
+div#lateralD{
+    width: 20%;
+}
+
+div#lateralE{
+    background-color: rgb(153, 103, 254);
+}
+
+.Jtitulo{
+    font-family: cabecalho;
+}
+
+.cabecalhoImagem{
+    height: 100px;
+}
+
+object.pdf{
+    height: 650px;
+    width: 500px;
+}
+div.pdf{
+    height: 100%;
+}
+
+div.imagensLaterias1{
+    text-align: center;
+}
+img.imagensLaterias1{
+    width: 30%;
+}
+div.imagensLaterias{
+    text-align: center;
+}
+img.imagensLaterias{
+    width: 13%;
+}
+
+div.imagensLaterias2{
+    text-align: center;
+}
+img.imagensLaterias2{
+    width: 30%;
+    padding-left: 5%;
+}
+
+div.img-lateral-capa{
+    text-align: center;
+}
+img.img-lateral-capa{
+    width: 95%;
+    padding: 5%;
+}

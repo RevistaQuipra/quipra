@@ -1,0 +1,48 @@
+@font-face {
+    font-family: cabecalho;
+    src: url("../fonts/Akrobat-SemiBold_0.otf");
+}
+
+@font-face {
+    font-family: corpo;
+    src: url("../fonts/Akrobat-SemiBold_0.otf");
+}
+
+div#texto p{
+    font-family: corpo;
+    font-size: 17pt;
+}
+
+div#texto h1{
+    font-family: cabecalho;
+}
+
+body{
+    background-color: rgb(153, 103, 254);
+}
+
+img#capa{
+    height: 300px;
+    position: relative;
+    right: -20px;
+}
+
+img.imagensLaterias1{
+    height: 70px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    right: -60px;
+}
+
+img.imagensLaterias2{
+    height: 70px;
+}
+
+img#botao{
+    height: 70px;
+}
+
+img.imagensLaterias{
+    height: 100px;
+}
